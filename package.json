@@ -4,7 +4,7 @@
   "description": "",
   "main": "crud.js",
   "engines": {
-    "node": "9.2.0"
+    "node": "9.2.0",
     "npm": "5.5.1"
   },
   "scripts": {
