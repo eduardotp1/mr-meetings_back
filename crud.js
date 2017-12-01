@@ -9,6 +9,7 @@ var teamSchedules = [];
 var numberMembers = 0;
 var countQuery = 0;
 var countSchedules = 0;
+const PORT = process.env.PORT || 5000
 
 var days = [["monday_6","monday_7","monday_8","monday_9","monday_10","monday_11","monday_12","monday_13","monday_14","monday_15","monday_16","monday_17","monday_18","monday_19","monday_20","monday_21","monday_22","monday_23"],
 ["tuesday_6","tuesday_7","tuesday_8","tuesday_9","tuesday_10","tuesday_11","tuesday_12","tuesday_13","tuesday_14","tuesday_15","tuesday_16","tuesday_17","tuesday_18","tuesday_19","tuesday_20","tuesday_21","tuesday_22","tuesday_23"],
@@ -26,7 +27,7 @@ app.get('/', function (req, res) {
     res.send('ITS WORKING');
 });
 
-app.listen(3001, function () {
+app.listen(PORT, function () {
     console.log('Servidor rodando na porta 3001!')
 });
 
