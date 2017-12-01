@@ -33,7 +33,7 @@ app.listen(3001, function () {
 var connection = mysql.createConnection({
     host : 'localhost',
     user : 'root',
-    password : '1234',
+    password : '201096',
     database : 'mrmeetings'
     })
 
