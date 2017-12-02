@@ -28,13 +28,13 @@ app.get('/', function (req, res) {
 });
 
 app.listen(PORT, function () {
-    console.log('Servidor rodando na porta 3001!')
+    console.log('Servidor rodando na porta 5000!')
 });
 
 var connection = mysql.createConnection({
-    host : 'localhost',
-    user : 'root',
-    password : '201096',
+    host : 'sql10.freemysqlhosting.net',
+    user : 'sql10208336',
+    password : 'u1pL5pH3Nt',
     database : 'mrmeetings'
     })
 
