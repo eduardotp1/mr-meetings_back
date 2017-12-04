@@ -35,7 +35,7 @@ app.get('/', function (req, res) {
     res.send('ITS WORKING');
 });
 
-app.listen(3001, function () {
+app.listen(5000, function () {
     console.log('Servidor rodando na porta 3001!')
 });
 
