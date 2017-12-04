@@ -35,8 +35,8 @@ app.get('/', function (req, res) {
     res.send('ITS WORKING');
 });
 
-app.listen(3001, function () {
-    console.log('Servidor rodando na porta 3001!')
+app.listen(process.env.PORT || 5000, function () {
+    console.log('Servidor rodando na porta 5000!')
 });
 
 var connection = mysql.createConnection({
