@@ -1,4 +1,5 @@
-//deploy1
+
+
 // Require stuff
 var express = require('express');
 var app = express();
@@ -34,15 +35,15 @@ app.get('/', function (req, res) {
     res.send('ITS WORKING');
 });
 
-app.listen(process.env.PORT || 5000, function () {
+app.listen(3001, function () {
     console.log('Servidor rodando na porta 3001!')
 });
 
 var connection = mysql.createConnection({
-    host : 'us-cdbr-iron-east-05.cleardb.net',
-    user : 'bf0bacdeb1bdb7',
-    password : '4795134e',
-    database : 'heroku_c1381814bae52ae'
+    host : 'localhost',
+    user : 'root',
+    password : '160520',
+    database : 'mrmeetings'
     })
 
 
