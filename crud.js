@@ -40,10 +40,10 @@ app.listen(3001, function () {
 });
 
 var connection = mysql.createConnection({
-    host : 'localhost',
-    user : 'root',
-    password : '160520',
-    database : 'mrmeetings'
+    host : 'us-cdbr-iron-east-05.cleardb.net',
+    user : 'bf0bacdeb1bdb7',
+    password : '4795134e',
+    database : 'heroku_c1381814bae52ae'
     })
 
 
